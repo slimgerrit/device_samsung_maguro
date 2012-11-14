@@ -20,7 +20,7 @@ PRODUCT_COPY_FILES +=  \
     vendor/slim/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.camera.res=13MP
+    ro.camera.res=8MP
 
 #copy 00check
 PRODUCT_COPY_FILES += \
@@ -39,6 +39,6 @@ PRIVATE_BUILD_DESC="yakju-user 4.1.1 JRO03L 230418 release-keys"
 PRODUCT_NAME := slim_maguro
 PRODUCT_DEVICE := maguro
 PRODUCT_BRAND := google
-PRODUCT_MODEL := Galaxy Nexus II
+PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_RESTRICT_VENDOR_FILES := false
