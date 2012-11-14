@@ -4,6 +4,7 @@
 
 #######################
 ## Regular device mount
+## Adding a new line to this file too.
 ##
 ## Format: dev_mount <label> <mount_point> <part> <sysfs_path1...>
 ## label        - Label for the volume
